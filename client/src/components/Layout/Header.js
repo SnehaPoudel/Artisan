@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FiShoppingBag } from "react-icons/fi";
 
+
 const Header = () => {
   return (
     <>

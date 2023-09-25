@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
-import { PiNutFill } from "./../../node_modules/react-icons/pi/index.esm";
 
 const Pagenotfound = () => {
   return (
