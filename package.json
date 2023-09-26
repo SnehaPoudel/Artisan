@@ -1,5 +1,6 @@
 {
   "name": "artisan",
+  "proxy": "http://localhost:8080",
   "version": "1.0.0",
   "description": "ecommerce rest api",
   "main": "server.js",
