@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
 
-/*//navbar css*/
+/* //navbar css */
 .navbar {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
@@ -23,7 +24,7 @@
 }
 
 .active {
-  border-bottom: 2px black solid;
+  border-bottom: 2px solid black;
 }
 
 .navbar-brand {
@@ -37,9 +38,13 @@
 .footer {
   color: white;
   padding: 25px;
-  background: black;
-  background: -webkit-linear-gradient(to right, #434343, black);
-  background: linear-gradient(to right, #434343, black);
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
 }
 
 .footer a {
@@ -62,13 +67,16 @@
   align-items: center;
   justify-content: center;
 }
+
 .pnf-title {
   font-size: 100px;
   font-weight: 700;
 }
+
 .pnf-heading {
   font-weight: normal;
 }
+
 .pnf-btn {
   color: black;
   border: 1px solid black;
